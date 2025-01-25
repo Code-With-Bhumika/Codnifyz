@@ -1,0 +1,35 @@
+body {
+    background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    font-size: 14px; /* Smaller font size */
+    border-radius: 10px; /* Slightly rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.card-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 0 0 10px 10px; /* Rounded bottom corners */
+}
+
+.card .title {
+    color: #333; /* Darker text for contrast */
+    font-size: 1.25rem; /* Slightly smaller title */
+}
+
+.card .subtitle {
+    color: #777; /* Subtle color for subtitle */
+    font-size: 0.875rem; /* Smaller subtitle */
+}
+
+.card .content {
+    color: #555; /* Neutral color for content */
+    font-size: 0.875rem; /* Smaller content text */
+}
+
+.card-image img {
+    border-radius: 10px 10px 0 0; /* Rounded top corners for the image */
+}
